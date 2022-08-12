@@ -2,7 +2,8 @@
 This Is a FreeCodeCamp Personal Portfolio Project
   
   
-  ![image](https://user-images.githubusercontent.com/65014926/182025694-6864d0d4-d3d0-4657-88fd-1668ba8db2f7.png)
+  ![image](![image](https://user-images.githubusercontent.com/65014926/184369696-7eb189e9-9618-470c-92b7-8f443efe44a5.png)
+
 
 
   
