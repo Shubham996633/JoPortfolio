@@ -9,9 +9,7 @@
  ## To Visit Click Here : <a href = "https://shubham996633.github.io/FreeCodeCamp_Personal_Portfolio/">Testing Portfolio </a>
  
  
-![image](https://user-images.githubusercontent.com/65014926/184369696-7eb189e9-9618-470c-92b7-8f443efe44a5.png)
-
-![image](https://user-images.githubusercontent.com/65014926/187136143-cd5cbf0e-8414-4e42-864a-832d7b32e161.png)
+![image](https://user-images.githubusercontent.com/65014926/192416533-07ab004c-4c2d-41a2-bf1f-094b7e210ffa.png)
 
   
   
