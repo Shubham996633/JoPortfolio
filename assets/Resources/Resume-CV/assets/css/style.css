@@ -69,6 +69,10 @@ nav .inner .logo{
 }
 a{
     text-decoration: none;
+    color: var(--ternary);
+    font-family:  'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+
 }
 
 nav .inner .logo i{
@@ -96,6 +100,8 @@ section.profile{
     align-items: center;
     padding: 3rem;
     margin-top: 60px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
+    padding-bottom: 4rem;
 }
 
 section.profile .left{
@@ -121,6 +127,24 @@ section.profile .left p{
     font-size: 14px;
 
 }
+a{
+    transition: .3s;
+}
+
+a:active{
+    transform: scale(.81);
+    opacity: .9;
+}
+
+section.profile .left .cd-headline.loading-bar .cd-words-wrapper::after{
+
+    background: linear-gradient(to right, var(--secondary), var(--success));
+}
+
+section.profile .left p b{
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
 
 section.profile .left img{
     width: 128px;
@@ -129,4 +153,78 @@ section.profile .left img{
     object-fit: cover;
 }
 
-/* 24:33 */
+section.profile .left .avatar__block {
+    position: relative;
+    margin-right: 2rem;
+
+}
+
+section.profile .left .avatar__block span{
+    position: absolute;
+    right: 4px;
+    bottom: 0;
+    background: var(--info);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pure);
+    box-shadow: 0px 0px 20px 0px rgba(32, 41, 54, 0.05);
+    cursor: pointer;
+
+}
+
+section.profile .right ul.contact{
+    list-style-type: none;
+    margin-bottom: 1.6rem;
+
+}
+
+section.profile .right ul.contact li{
+    color: var(--ternary);
+    margin-bottom: .7rem;
+    font-size: 14px;
+}
+
+section.profile .right ul.contact li i {
+    font-size: 18px;
+    margin-right: 0.3rem;
+}
+
+section.profile .right ul.socials{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+section.profile .right ul.socials li{
+    margin-right: 0.8rem;
+}
+
+section.profile .right ul.socials li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--pure);
+    line-height: 36px;
+    text-align: center;
+    font-size: 21px;
+}
+
+section.profile .right ul.socials li:nth-child(1) a{
+    background: rgb(10, 103, 165);
+
+}
+
+section.profile .right ul.socials li:nth-child(2) a{
+    background: rgb(19, 98, 202);
+    
+}
+
+section.profile .right ul.socials li:nth-child(3) a{
+    background: rgb(92, 91, 91);
+    
+}
