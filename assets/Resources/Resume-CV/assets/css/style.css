@@ -1,0 +1,132 @@
+                    /* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+                    /* Variable CSS */
+
+
+                    /* Colors */
+
+:root{
+    --primary: #1a253f;
+    --dark: #151a33;
+    --secondary: #2b55cc;
+    --info: #4d79f6;
+    --ternary: #848db3;
+    --pure: #eff2f9;
+    --fade: #7081b9;
+    --mild: #8997bd;
+    --footer: #212a4a;
+    --black: #060b1b;
+    --twitter: #4ac7ec;
+    --dribble: #ff5da0;
+    --success: #1ecab8;
+    --danger: #f1646c;
+    --dark-blue: #28365f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:  'IBM Plex Sans', sans-serif;
+    background: var(--dark);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: 1;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+nav{
+    background: var(--primary);
+    padding: 1.6rem 0;
+}
+
+nav .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .inner .logo{
+    text-transform: uppercase;
+    color: var(--pure);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+
+nav .inner .logo i{
+    color: var(--info);
+}
+button:active{
+    transform: scale(.81);
+    opacity: .9;
+}
+
+nav .inner button{
+    background: var(--secondary);
+    border: none;
+    padding: .6rem 1rem;
+    color: var(--pure);
+    font-size: 14px;
+    border-radius: 4px;
+    transition: .3s;
+
+}
+
+section.profile{
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 60px;
+}
+
+section.profile .left{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+section.profile .right{
+    flex: 1;
+}
+
+section.profile .left h2{
+    color: var(--fade);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+section.profile .left p{
+    color: var(--mild);
+    font-size: 14px;
+
+}
+
+section.profile .left img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 24:33 */
