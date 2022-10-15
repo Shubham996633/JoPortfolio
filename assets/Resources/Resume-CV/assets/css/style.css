@@ -36,6 +36,7 @@ body{
     font-family:  'IBM Plex Sans', sans-serif;
     background: var(--dark);
     -webkit-font-smoothing: antialiased;
+    height: 5000px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -78,7 +79,13 @@ a{
 nav .inner .logo i{
     color: var(--info);
 }
-button:active{
+
+button,
+.avatar__block span{
+    transition: .3s;
+}
+button:active,
+.avatar__block span:active{
     transform: scale(.81);
     opacity: .9;
 }
@@ -228,3 +235,164 @@ section.profile .right ul.socials li:nth-child(3) a{
     background: rgb(92, 91, 91);
     
 }
+
+.section__heading{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--pure);
+    margin-bottom: 3rem;
+    text-shadow: 0 0 1px rgba(40, 54, 95, 0.1);
+    position: relative;
+}
+
+section{
+    padding: 3rem;
+}
+
+main{
+    background: var(--primary);
+}
+
+.section__heading:after{
+    content: '';
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    border: 1px dotted var(--danger);
+}
+
+section.about .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16rem;
+}
+
+
+section.about .content h2{
+    color: var(info);
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+section.about .content p{
+    color: var(--ternary);
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    margin-bottom: 1rem;
+}
+
+section.about .content .left button{
+    background: rgba(77, 121, 246, 0.1);
+    color: var(--info);
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    line-height: 24px;
+    outline: none;
+    cursor: pointer;
+}
+
+section.about .content .right p{
+    line-height: 1.6;
+    font-size: 14px;
+    color: var(--ternary);
+    letter-spacing: 0.1px;
+    margin-bottom: 1rem;
+}
+
+section.about .content .right p span:nth-child(1){
+    width: 150px;
+    float: left;
+    font-weight: 500;
+    padding-right: 10px;
+    display: block;
+    position: relative;
+}
+
+section.about .content .right p span:nth-child(2){
+    padding-left: 210px;
+    display: block;
+
+}
+
+section.about .content .right p span:nth-child(1):after{
+    content: ':';
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+section.skills .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+section.skills .content .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+section.skills .content .left .heading{
+    margin-bottom: 2rem;
+}
+
+
+section.skills .content .left .heading i{
+    color: var(--fade);
+    font-size: 52px;
+
+}
+
+section.skills .content .left .heading h5{
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: var(--mild);
+}
+
+section.skills .content .left p{
+    font-size: 14px;
+    color: var(--ternary);
+    line-height: 1.7;
+}
+
+section.skills .content .left p.center{
+    color: var(--fade);
+}
+
+section.skills .content .left .item{
+    margin-bottom: 2.6rem;
+    margin-left: 15px;
+    position: relative;
+    
+}
+
+
+section.skills .content .left .timeline__wrapper{
+    border-left: 2px dotted var(--dark-blue);
+
+}
+
+section.skills .content .left .item:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--info);
+    border-radius: 50%;
+    margin-left: -21px;
+}
+
+section.skills .skills__wrapper .skills-box{
+
+}
+
+/* 38:06 */
