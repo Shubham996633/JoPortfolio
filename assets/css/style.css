@@ -1,0 +1,152 @@
+                  /*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+                  /*=============== VARIABLES CSS ===============*/
+:root {
+                 /*===== Colors =====*/
+    --hue-color:242;
+
+                  /* HSL Color Mode */
+    --skin-color: hsl(342, 92%, 46%);
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 85%);
+    --body-color: hsl(var(--hue-color), 19%, 5%);
+    --box-color: hsl(var(--hue-color), 14%, 10%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 38%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 26%);
+
+                  /*===== Font and Typography =====*/
+    --body-font: 'Poppins', sans-serif;
+
+    --biggest-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+                 /*===== Font Weight =====*/
+    --font-medium: 500;
+    --font-bold: 600;
+
+                   /*===== Margenes Bottom =====*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+                  /*===== Z Index =====*/
+    --z-fixed: 10;
+    --z-modal: 100;
+}
+
+                /* Responsive Typography */
+@media screen and (max-width: 1024px) {
+    :root {
+        --biggest-font-size: 2rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1.125rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .813rem;
+        --smaller-font-size: .75rem;
+    }
+}
+
+                /*=============== BASE ===============*/
+
+
+                /*=============== LAYOUT ===============*/
+
+
+                /*=============== REUSABLE CSS CLASSES ===============*/
+
+
+                /*=============== SIDEBAR ===============*/
+
+
+                /* Active Link */
+
+
+                /*=============== MAIN ===============*/
+
+
+                /*===== Home Section =====*/
+
+
+                /*===== Buttons =====*/
+
+
+                /*===== About Section =====*/
+
+
+                /*===== Qualification Section =====*/
+
+
+                /*===== Skills Section =====*/
+
+
+                /*===== Work Section =====*/
+
+
+                /* Active Item Work */
+
+
+                /* Portfolio Popup */
+
+
+                /*===== Services Section =====*/
+
+
+                /* Active Modal*/
+
+
+                /*===== Testimonial Section =====*/
+
+
+                /* Swiper Class */
+
+
+                /*===== Contact Section =====*/
+
+
+                /*=============== FOOTER ===============*/
+
+
+                /*=============== SCROLL UP ===============*/
+
+
+                /* Show Scroll Up*/
+
+
+                /*=============== SCROLL BAR ===============*/
+
+
+                /*========== BREAKPOINTS ==========*/
+
+
+                /* For Large Devices */
+
+
+@media screen and (max-width: 1408px) {}
+
+@media screen and (max-width: 1216px) {}
+
+@media screen and (max-width: 1024px) {}
+
+              /* For Medium Devices */
+
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+            /* For Small Devices */
+
+            
+@media screen and (max-width: 350px) {}
