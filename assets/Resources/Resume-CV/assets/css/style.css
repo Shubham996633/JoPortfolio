@@ -391,8 +391,44 @@ section.skills .content .left .item:after{
     margin-left: -21px;
 }
 
-section.skills .skills__wrapper .skills-box{
-
+section.skills .skills__wrapper .skills-box h4{
+    color: var(--ternary);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 
-/* 38:06 */
+section.skills .skills__wrapper .skills-box{
+    margin-bottom: 4rem;
+}
+
+
+section.skills .skills__wrapper .skills-box .progress_wrap{
+    background: #20294a;
+    height: 6px;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0.25px #4d79f6;
+    border-radius: 10px;
+    border: 2px solid var(--primary)
+}
+
+section.skills .skills__wrapper .skills-box .progress_wrap .progress__bar{
+    display: block;
+    height: 100%;
+    background: var(--info);
+    width: 0;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+section.skills .skills__wrapper .skills-box .progress_wrap .progress__bar .tooltip{
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    margin-bottom: 10px;
+    color: var(--ternary);
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
