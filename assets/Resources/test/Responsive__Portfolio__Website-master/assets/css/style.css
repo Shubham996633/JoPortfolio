@@ -463,22 +463,22 @@ img{
     width: 80%;
 }
 .skills__js{
-    width: 60%;
+    width: 96%;
 }
 .skills__react{
-    width: 85%;
+    width: 75%;
 }
 .skills__php{
     width: 80%;
 }
 .skills__node{
-    width: 70;
+    width: 75;
 }
 .skills__firebase{
     width: 90%;
 }
 .skills__python{
-    width: 55%;
+    width: 75%;
 }
 .skills__figma{
     width: 90%;
@@ -692,8 +692,12 @@ img{
 .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -2.5rem;
 }
-.swiper-pagination-bullets-active{
+
+.swiper-pagination-bullet{
     background-color: var(--first-color);
+}
+.swiper-pagination-bullets-active{
+    background-color: rgb(22, 151, 202);
 }
 .swiper-button-prev,
 .swiper-button-next,
@@ -1164,5 +1168,13 @@ img{
 }
 
 .home__scroll{
-    margin-top: -6rem;
+    margin-top: -7.5rem;
+}
+.home__content{
+    margin-top: -2.1rem;
+}
+.scrollup__icon{
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
