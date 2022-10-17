@@ -132,7 +132,7 @@ function generateResume(){
 
 
 resumeButton.addEventListener('click', () => {
-    scaleCv()
+    // scaleCv()
 
     generateResume()
 
@@ -153,6 +153,13 @@ resumeButton.addEventListener('click', () => {
         icon: 'success',
         title: 'Download Initiated'
       })
+
+      document.querySelector('.swal2-popup').style.background = '#1b1a1a'
+      document.querySelector('.swal2-popup').style.color = 'white'
+      document.querySelector('.swal2-timer-progress-bar').style.background = '#bebcc5'
+      document.querySelector('.swal2-success-circular-line-left').style.background = '#1b1a1a' 
+        document.querySelector('.swal2-success-circular-line-right').style.background = '#1b1a1a' 
+        document.querySelector('.swal2-success-fix').style.background = '#1b1a1a'
 })
 
 
