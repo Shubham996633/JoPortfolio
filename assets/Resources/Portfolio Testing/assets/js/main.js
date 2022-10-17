@@ -164,3 +164,7 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
+const resme = document.querySelector('.about__buttons')
+resme.addEventListener('click', () => {
+  window.open('../Resume/index.html', "",  "width=1920, height=1080")
+})
