@@ -251,6 +251,18 @@ img{
 /* Active link */
 .active-link{
     bottom: 0;
+    color: var(--first-color-alt);
+    
+    
+}
+
+.active-link::after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--first-color-alt);
+    border-radius: 50%;
+
 }
 
 /* Change background header */
@@ -1029,6 +1041,9 @@ img{
     .change-theme{
         margin: 0;
     }
+    .nav__link{
+        font-size: 1rem;
+    }
     .home__container{
         row-gap: 5rem;
     }
@@ -1177,4 +1192,12 @@ img{
     color: white;
     font-weight: 500;
     font-size: 1.25rem;
+}
+
+.contect__links{
+    color: var(--text-color);
+}
+
+.footer__title{
+    font-size: 1.5rem;
 }

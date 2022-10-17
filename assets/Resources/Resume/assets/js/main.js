@@ -132,7 +132,7 @@ function generateResume(){
 
 
 resumeButton.addEventListener('click', () => {
-    // scaleCv()
+    scaleCv()
 
     generateResume()
 
