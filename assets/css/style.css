@@ -340,7 +340,7 @@ input{
 
 .active-work{
   background-color: var(--skin-color);
-  color: var(--title-color)s;
+  color: var(--title-color);
 }
 
 .portfolio__popup{
