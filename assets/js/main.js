@@ -278,3 +278,23 @@ function portfolioItemDetails(portfolioItem){
   document.querySelector('.portfolio__popup-subtitle span').innerHTML = portfolioItem.querySelector('.work__title').innerHTML
   document.querySelector('.portfolio__popup-body').innerHTML = portfolioItem.querySelector('.portfolio__item-details').innerHTML
 }
+
+const sr = ScrollReveal({
+  origin:'top',
+  distance:'60px',
+  duration:1800,
+  delay:400,
+  reset:true
+
+})
+
+sr.reveal(`.home__social, home__title, button--flex`)
+
+sr.reveal(`.home__description, home__data, .nav`, {delay:500})
+sr.reveal(`.skills, .qualification`, {delay:500})
+sr.reveal(`.button--flex, .home__scroll-button, .home__scroll`, {delay:900})
+sr.reveal(`.work__filters, .portfolio__title-heading, .footer, .project__container`, {delay:700})
+sr.reveal(`.home__img`, {delay:200, origin:'bottom'})
+sr.reveal(`.work__card`,{delay:72, origin:'bottom'})
+sr.reveal(`.about__data`,{origin:'right', delay:210})
+sr.reveal(`.about__img`,{origin:'left', delay:240})
