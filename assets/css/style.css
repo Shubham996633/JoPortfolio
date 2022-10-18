@@ -1451,7 +1451,11 @@ img{
   border-radius: .5rem;
   height: 220px;
 }
+
 @media screen and (max-width: 576px) {
+    .work__item{
+        max-width: 72px;
+    }
     .work__container{
         grid-template-columns: 300px;
     }
