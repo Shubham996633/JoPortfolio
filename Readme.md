@@ -1,15 +1,36 @@
-# Personal Portfolio Project
+# Personal Portfolio Website
 
-###  Personal Portfolio Project
+
  
-### Note: This is Just a testing Portfolio Page The Actual Portfolio is Under Way and it will be out after some time.
+#### This is my Personal Portfolio website it will be updated after my every project completion, currently the portfolio website is built by HTML, CSS & JavaScript but after sometimes I also intoduce some other frameworks
+<br>
+
+![image](https://user-images.githubusercontent.com/65014926/196559546-4a8c2e68-116f-46a9-b593-5a976899e21b.png)
 
 
   
  ## To Visit Click Here : <a href = "https://joportfolio.pages.dev/">Testing Portfolio </a>
  
+ <br>
+#### Last updated on : 24/October/2022 
+
+
+
+   ## Disclaimer   
+   
+   The images seen on my portfolio is not owned by Me , I will add my images after some-time
+   
+
+      
+   
+
+ ## Note
  
-![image](https://user-images.githubusercontent.com/65014926/194185355-a25bae0d-4a71-4e8e-8fcc-7862df6fe2ee.png)
+
+   If anyone have any query , request or suggestion please Drop a Mail here : ( <a href = "mailto:shubhammaurya996633+work@gmail.com"> Shubham_Maurya</a> )
+
+
+
 
   
   
