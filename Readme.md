@@ -9,7 +9,7 @@
 
 
   
- ## To Visit Click Here : <a href = "https://joportfolio.pages.dev/">Testing Portfolio </a>
+ ## To Visit Click Here : <a href = "https://bit.ly/JoPersonalPortfolio">Testing Portfolio </a>
  
  <br>
  
