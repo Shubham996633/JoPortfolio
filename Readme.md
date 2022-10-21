@@ -2,7 +2,7 @@
 
 
  
-#### This is my Personal Portfolio website it will be updated after my every project completion, currently the portfolio website is built by HTML, CSS & JavaScript but after sometimes I also intoduce some other frameworks
+### This is my Personal Portfolio website it will be updated after my every project completion, currently the portfolio website is built by HTML, CSS & JavaScript but after sometimes I also intoduce some other frameworks
 <br>
 
 ![image](https://user-images.githubusercontent.com/65014926/196559546-4a8c2e68-116f-46a9-b593-5a976899e21b.png)
