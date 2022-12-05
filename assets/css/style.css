@@ -466,6 +466,13 @@ img{
     height: 5px;
     border-radius: .25rem;
 }
+.goFreecodecamp{
+    cursor: pointer;
+    color: white;
+}
+a{
+    color: white;
+}
 .skills__bar{
     background-color: var(--first-color-lighter);
 }
